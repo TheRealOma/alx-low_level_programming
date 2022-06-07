@@ -10,12 +10,20 @@
 
 int main(void)
 {
-	int x;
-	x = 65;
-	while (x <= 90)
+	int x = 97;
+
+	while (x <= 122)
 	{
 		putchar(x);
 		x++;
+	}
+
+	int y = 65;
+
+	while (y <= 90)
+	{
+		putchar(y);
+		y++;
 	}
 	putchar(10);
 	return 0;
