@@ -11,8 +11,8 @@
 int main(void)
 {
 	int x;
-	x = 65;
-	while (x <= 90)
+	x = 97;
+	while (x <= 122)
 	{
 		putchar(x);
 		x++;
