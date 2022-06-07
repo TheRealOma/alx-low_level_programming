@@ -10,8 +10,7 @@
 
 int main(void)
 {
-	int x;
-	x = 97;
+	int x = 97;
 
 	while (x <= 122)
 	{
