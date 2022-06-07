@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++)
+	int x;
+	x = 65;
+	while (x <= 90)
 	{
-	        int lower_x = tolower(x);
-		putchar(lower_x);
+		putchar(x);
+		x++;
 	}
-	putchar('\n');
 	return 0;
 }
