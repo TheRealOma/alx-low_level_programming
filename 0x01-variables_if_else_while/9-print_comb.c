@@ -17,8 +17,8 @@ int main(void)
 		putchar(x);
 		x++;
 		if (x < 10)
-			putchar(44);
-			putchar(32);
+		putchar(44);
+		putchar(32);
 	}
 	putchar(10);
 	return (0);
