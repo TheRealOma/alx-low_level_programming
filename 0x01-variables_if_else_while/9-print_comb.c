@@ -14,9 +14,7 @@ int main(void)
 
 	while (x <= 57)
 	{
-		putchar(x % 10 + 48);
-		if (x == 57)
-			continue;
+		putchar(x);
 		x++;
 		putchar(44);
 		putchar(32);
