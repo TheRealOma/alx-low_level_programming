@@ -11,11 +11,11 @@ int main(void)
 	int a;
 	int b;
 
-	a = 98;
-	b = 42;
-	a = a + b;
+	printf("Enter two values:");
+	scanf("%d%d", &b, &a);
+	/**a = a + b;
 	b = a - b;
-	a = a - b;
+	a = a - b;*/
 	printf("%d, %d", a, b);
 	return(0);
 }
