@@ -6,10 +6,13 @@
  * Results: same as always
  */
 
-void swap_int(int *a, int *b) /**This is the function*/
+void swap_int(int *a, int *b)
 {
-	int random_variable = *a; /** Assigning a random variable to a*/
+	int random_variable;
+	/**Add a comment*/
+	random_variable = *a;
+	/** Assigning a random variable to a*/
 	*a = *b;
-	*b = random_variable; /** Now b becomes the random variable*/
+	*b = random_variable;
 
 }
