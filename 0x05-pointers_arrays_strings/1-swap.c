@@ -6,16 +6,10 @@
  * Results: same as always
  */
 
-int main(void)
+void swap_int(int *a, int *b)
 {
-	int a;
-	int b;
+	int random_variable = *a;
+	*a = *b;
+	*b = random_variable;
 
-	printf("Enter two values:");
-	scanf("%d%d", &b, &a);
-	/**a = a + b;
-	b = a - b;
-	a = a - b;*/
-	printf("%d, %d", a, b);
-	return(0);
 }
