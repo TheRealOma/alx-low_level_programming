@@ -2,11 +2,10 @@
 #include <string.h>
 
 /**
- * main - check the code
  * _strlen - command for length of string
  * @s: string used
  *
- * Return: s length.
+ * Return: string length.
  */
 
 int _strlen(char *s)
