@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
+ * swap_int - my function name
  * @a: first variable
  * @b: second variable
- * swap_int: my function name
  * random_variable: my random variable
  *
- * Results: same as always
+ * Results: swaps two values in variables
  */
 
 void swap_int(int *a, int *b)
