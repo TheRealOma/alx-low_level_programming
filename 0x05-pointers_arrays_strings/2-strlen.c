@@ -3,8 +3,8 @@
 
 /**
  * main - check the code
- * _strlen: command for length of string
- * *s: string used
+ * _strlen - command for length of string
+ * @s: string used
  *
  * Return: s length.
  */
