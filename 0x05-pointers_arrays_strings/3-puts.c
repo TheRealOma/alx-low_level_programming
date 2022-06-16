@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * 
+ * _puts - Print string (but is this compulsory)
  * @str: string used
  *
  * Return: void
