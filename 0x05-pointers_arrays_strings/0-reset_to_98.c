@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Results: same as always
+ * reset_to_98 - my function name which should reset the pointer to 98
+ *@n: arguement for pointer
+ *@ptr: pointer to be reset
+
+ * Results: New pointer equal to 98 
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *reset_to_98 = &n;
-	*reset_to_98 = 98;
-	putchar(*reset_to_98);
-	return(0);
+	int *n;
+	int ptr;
+
+	*n = &ptr;
+	*n = 98;
 }
