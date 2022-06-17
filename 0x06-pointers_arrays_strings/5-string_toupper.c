@@ -3,12 +3,12 @@
 
 /**
  * string_toupper - lower to upper case string
- *@s: string
+ * @s: string
  *
  * Return: char
- * */
+ */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
 	int position;
