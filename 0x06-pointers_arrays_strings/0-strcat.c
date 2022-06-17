@@ -4,10 +4,11 @@
 
 /**
  * _strcat - function to concatenate two strings
- * 
+ *
  * @dest: destination
  * @src: string to be appended
  *
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
