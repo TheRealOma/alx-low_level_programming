@@ -8,11 +8,12 @@
 
 void print_alphabet(void)
 {
-	char alphabet;
+	int i = 97;
 
-	for (alphabet = ="a"; alphabet <= "z"; alphabet++)
+	while (i < 123)
 	{
-		_putchar(alphabet);
+		_putchar(i);
+		i++;
 	}
-	_putchar("\n");
+	_putchar(10);
 }
