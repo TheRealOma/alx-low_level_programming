@@ -5,6 +5,7 @@
  * _strncat - concatenate string of n length
  * @dest: destination file
  * @src: source to be appended
+ * @n: so its because of n
  *
  * Return: return destination
  */
@@ -17,8 +18,8 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[dest_length] != '\0')
 		dest_length++;
 
-	for (i = 0; i < n; i ++)
+	for (i = 0; i < n; i++)
 		dest[dest_length + i] = src[i];
 
-	return dest;
+	return (dest);
 }
