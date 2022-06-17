@@ -3,7 +3,6 @@
 
 /**
  * _strncat - concatenate string of n length
- * 
  * @dest: destination file
  * @src: source to be appended
  *
