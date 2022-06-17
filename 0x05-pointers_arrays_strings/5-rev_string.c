@@ -10,14 +10,22 @@
 
 void rev_string(char *s)
 {
-	int i = 0;
+	int i, m, h;
+	char f, l;
 
-	/**while (*(s + i))
-		i++;
-	i = i - 1;*/
-	while (i >= 0)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		_putchar(*(s + i));
-		i--;
+		i++;
+	}
+	m = i - 1;
+	h = m / 2;
+	while (h >= 0)
+	{
+		f = s[m - h];
+		l = s[h];
+		s[h] = f;
+		s[m - h] = l;
+		h--;
 	}
 }
