@@ -20,7 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i=0; i < n; i ++)
 		dest[n + i] = src[i];
-	dest[n+i] = '\0';
 
 	return dest;
 }
