@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncpy - concatenate string of n length
+ * _strncat - concatenate string of n length
  * 
  * @dest: destination file
  * @src: source to be appended
@@ -10,7 +10,7 @@
  * Return: return destination
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int dest_length = 0;
