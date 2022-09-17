@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - prints the numbers from 0 to 9
  *
- * Return: void
+ * Return: Void
  */
 
 void print_most_numbers(void)
@@ -15,6 +15,6 @@ void print_most_numbers(void)
 		if (c == 50 || c == 52)
 			c++;
 		_putchar(c);
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
